@@ -12,7 +12,7 @@ process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
 
 firebaseAdmin.initializeApp({
   credential: firebaseAdmin.credential.applicationDefault(),
-  databaseURL: 'ws://edu-agent-eapw-default-rtdb.firebaseio.com/',
+  databaseURL: 'ws://',
 });
 
 
